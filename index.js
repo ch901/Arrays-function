@@ -36,33 +36,39 @@
 // Question3
 
 // let fruit = ['apple', 'mango', 'banana'];
-// 		function changeFruit( fruit ) {
-//     			fruit[2] = "orange";
-//     			return fruit;
-// 		}
+		// function changeFruit(fruit) {
+    			// fruit[2] = "orange";
+    			// return fruit;
+		// }
 // console.log(fruit)
 
-changeFruit=[‘apple’, ‘mango’, ‘orange’] in computer counting start from. 0
+//changeFruit=['apple', 'mango', 'orange'] in computer counting start from 0
 
 // question4
 
-Solution 1
-const getMaxFromArray = (array) => array.sort()[1]
+// const numbers = [4, 5, 10, -2];
+// let max = numbers[0];
+// for (let  i = 0; i <  numbers.length; i++) {
+//   if (numbers[i] >= max){
+//   max = numbers[i];
+// }
+// }
+// console.log( 'max is ' + max)
 
-Solution 2
-const getMaxFromArray = (array) => {
-  let currentMaxNumber = 0;
+// Solution 2
+// const getMaxFromArray = (array) => {
+//   let currentMaxNumber = 0;
   
-  array.forEach((n) => {
-    if(n > currentMaxNumber){
-      currentMaxNumber = n
-    }
-  })
+//   array.forEach((n) => {
+//     if(n > currentMaxNumber){
+//       currentMaxNumber = n
+//     }
+//   })
   
-  return currentMaxNumber
-}
+//   return currentMaxNumber
+// }
 
-console.log('getMaxFromArray', getMaxFromArray([4, 5, 10, -2]))
+// console.log('getMaxFromArray', getMaxFromArray([4, 5, 10, -2]))
 
 
 
