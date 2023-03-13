@@ -70,5 +70,11 @@
 
 // console.log('getMaxFromArray', getMaxFromArray([4, 5, 10, -2]))
 
+// question5
 
 
+function valTimesIndex (array){
+  return  array.map((val, index) => val * index)
+ }
+
+console.log ( valTimesIndex ([1, 2, 3]))
