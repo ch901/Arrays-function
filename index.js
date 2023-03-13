@@ -56,6 +56,9 @@
 // console.log( 'max is ' + max)
 
 // Solution 2
+
+const getMaxFromArray = (array) => array.sort((a, b) => a - b)[array.length - 1]
+
 // const getMaxFromArray = (array) => {
 //   let currentMaxNumber = 0;
   
